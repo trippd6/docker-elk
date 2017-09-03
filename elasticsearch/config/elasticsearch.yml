@@ -24,3 +24,7 @@ xpack.monitoring.enabled: false
 xpack.ml.enabled: false
 xpack.graph.enabled: false
 xpack.watcher.enabled: false
+
+thread_pool:
+   search:
+      queue_size: 2000
